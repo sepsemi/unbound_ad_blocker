@@ -21,7 +21,7 @@ now stackoverflow is whitelisted enjoy your skid ripping routines!
 
 ## Blacklisting!
 ```
-$ sqlite3 /usr/local/unbound/blocker/etc/database.db "INSERT INTO blacklist (tld, lenght, domain) VALUES ('com', 17, 'stackoverflow.com')";
+$ sqlite3 /usr/local/unbound/blocker/etc/database.db "INSERT INTO blacklist (tld, lenght, domain) VALUES ('com', 16, 'www.facebook.com')";
 
 ```
 ## Regexes
