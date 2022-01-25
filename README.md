@@ -25,4 +25,7 @@ $ sqlite3 /usr/local/unbound/blocker/etc/database.db "INSERT INTO blacklist (tld
 
 ```
 ## Regexes
-the project also uses regex these paterns can be modified in the following file /usr/local/etc/unbound/blocker/etc/paterns.txt
+the project also uses regex these paterns can be modified in the following file 
+```
+vim /usr/local/etc/unbound/blocker/etc/paterns.txt
+```
