@@ -29,3 +29,8 @@ The project also uses regex these paterns can be modified in the following file
 ```
 vim /usr/local/etc/unbound/blocker/etc/paterns.txt
 ```
+
+## Configuration! chose your lists!
+You can remove and add lists to the bootstrapping process in the following json config!
+```
+vim /usr/local/unbound/blocker/etc/config.json
